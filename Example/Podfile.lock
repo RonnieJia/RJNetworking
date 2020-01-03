@@ -1,0 +1,16 @@
+PODS:
+  - RJNetworking (0.1.0)
+
+DEPENDENCIES:
+  - RJNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  RJNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RJNetworking: 8ec60f87393d3f0571812fe48cd36fabee1e7d44
+
+PODFILE CHECKSUM: 3f7d39510fb6531e6b8b324d5cabc36902728076
+
+COCOAPODS: 1.8.4

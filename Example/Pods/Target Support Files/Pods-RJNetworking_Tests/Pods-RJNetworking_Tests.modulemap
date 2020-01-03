@@ -1,0 +1,6 @@
+framework module Pods_RJNetworking_Tests {
+  umbrella header "Pods-RJNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
