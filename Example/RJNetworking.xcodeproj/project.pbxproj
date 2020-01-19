@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002C2A4A43B91E724B3DBE19 /* Pods_RJNetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FDD53F6B81E25739424DAD /* Pods_RJNetworking_Tests.framework */; };
+		08663E3923D43E140048E481 /* RJdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08663E3823D43E140048E481 /* RJdViewController.m */; };
+		08663E4023D43FFC0048E481 /* RJRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08663E3E23D43FFC0048E481 /* RJRegViewController.m */; };
+		08663E4123D43FFC0048E481 /* RJRegViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08663E3F23D43FFC0048E481 /* RJRegViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RJAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* RJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RJViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		647B38EF7D4C19374EA2C2CA /* Pods_RJNetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE509DFEF7EFC6E25931D2BD /* Pods_RJNetworking_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7A6F9EFC1D2FE42E66DEB99C /* Pods_RJNetworking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E7EC3BB1CC78BB090E19C1 /* Pods_RJNetworking_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		906E0E1AEA73B8F87310CC02 /* Pods_RJNetworking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C10C4F4C87ACC194BC7608 /* Pods_RJNetworking_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08663E3723D43E140048E481 /* RJdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJdViewController.h; sourceTree = "<group>"; };
+		08663E3823D43E140048E481 /* RJdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJdViewController.m; sourceTree = "<group>"; };
+		08663E3D23D43FFC0048E481 /* RJRegViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJRegViewController.h; sourceTree = "<group>"; };
+		08663E3E23D43FFC0048E481 /* RJRegViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJRegViewController.m; sourceTree = "<group>"; };
+		08663E3F23D43FFC0048E481 /* RJRegViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RJRegViewController.xib; sourceTree = "<group>"; };
 		0AABC0856F175DE6DAC42ACD /* Pods-RJNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RJNetworking_Tests/Pods-RJNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		13468898DFFEF2495E943B13 /* Pods-RJNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJNetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-RJNetworking_Example/Pods-RJNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55E7EC3BB1CC78BB090E19C1 /* Pods_RJNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F2C1511A9FAC59B88FE5C80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5F2C1511A9FAC59B88FE5C80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RJNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +57,6 @@
 		6003F59B195388D20070C39A /* RJNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RJNetworking-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* RJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* RJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RJNetworking_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJNetworking_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,12 +65,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80FDD53F6B81E25739424DAD /* Pods_RJNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		817B4A5ADA38B58D69D21E53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		817B4A5ADA38B58D69D21E53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A914DC0D35552EC7EAF46EC1 /* Pods-RJNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-RJNetworking_Tests/Pods-RJNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A9C10C4F4C87ACC194BC7608 /* Pods_RJNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE509DFEF7EFC6E25931D2BD /* Pods_RJNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EC40380120EA9376BE4E9D /* Pods-RJNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJNetworking_Example.release.xcconfig"; path = "Target Support Files/Pods-RJNetworking_Example/Pods-RJNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FB103DE88DAF9F9D7B2E61D8 /* RJNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RJNetworking.podspec; path = ../RJNetworking.podspec; sourceTree = "<group>"; };
+		FB103DE88DAF9F9D7B2E61D8 /* RJNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RJNetworking.podspec; path = ../RJNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +82,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7A6F9EFC1D2FE42E66DEB99C /* Pods_RJNetworking_Example.framework in Frameworks */,
+				906E0E1AEA73B8F87310CC02 /* Pods_RJNetworking_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +93,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				002C2A4A43B91E724B3DBE19 /* Pods_RJNetworking_Tests.framework in Frameworks */,
+				647B38EF7D4C19374EA2C2CA /* Pods_RJNetworking_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +108,6 @@
 				0AABC0856F175DE6DAC42ACD /* Pods-RJNetworking_Tests.debug.xcconfig */,
 				A914DC0D35552EC7EAF46EC1 /* Pods-RJNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -135,8 +139,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				55E7EC3BB1CC78BB090E19C1 /* Pods_RJNetworking_Example.framework */,
-				80FDD53F6B81E25739424DAD /* Pods_RJNetworking_Tests.framework */,
+				A9C10C4F4C87ACC194BC7608 /* Pods_RJNetworking_Example.framework */,
+				AE509DFEF7EFC6E25931D2BD /* Pods_RJNetworking_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,8 +151,11 @@
 				6003F59C195388D20070C39A /* RJAppDelegate.h */,
 				6003F59D195388D20070C39A /* RJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* RJViewController.h */,
-				6003F5A6195388D20070C39A /* RJViewController.m */,
+				08663E3723D43E140048E481 /* RJdViewController.h */,
+				08663E3823D43E140048E481 /* RJdViewController.m */,
+				08663E3D23D43FFC0048E481 /* RJRegViewController.h */,
+				08663E3E23D43FFC0048E481 /* RJRegViewController.m */,
+				08663E3F23D43FFC0048E481 /* RJRegViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -208,7 +215,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2BCC9175DC5B55ABD1F2F436 /* [CP] Embed Pods Frameworks */,
+				5B5DDB7AC676E14D3E9D256A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -281,6 +289,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				08663E4123D43FFC0048E481 /* RJRegViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,18 +304,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2BCC9175DC5B55ABD1F2F436 /* [CP] Embed Pods Frameworks */ = {
+		5B5DDB7AC676E14D3E9D256A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RJNetworking_Example/Pods-RJNetworking_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Base64/Base64.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/RJNetworking/RJNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/RJUtils/RJUtils.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJUtils.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,7 +382,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* RJAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RJViewController.m in Sources */,
+				08663E4023D43FFC0048E481 /* RJRegViewController.m in Sources */,
+				08663E3923D43E140048E481 /* RJdViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

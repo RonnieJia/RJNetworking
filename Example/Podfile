@@ -1,6 +1,8 @@
+source 'https://github.com/RonnieJia/RJSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'RJNetworking_Example' do
   pod 'RJNetworking', :path => '../'

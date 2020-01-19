@@ -8,11 +8,12 @@
 #import "RJHTTPResponse.h"
 
 static NSString *const kRJResponseCodeKey = @"code";
-static NSString *const kRJResponseMsgKey = @"message";
+static NSString *const kRJResponseMsgKey = @"msg";
 static NSString *const kRJResponseObjKey = @"result";
 
 @implementation RJHTTPResponse
 + (RJHTTPResponse *)response:(id)obj {
+    
     RJHTTPResponse *response = [[RJHTTPResponse alloc] init];
     if (!obj || [obj isKindOfClass:[NSError class]]) {
         [response responseWithError:obj];

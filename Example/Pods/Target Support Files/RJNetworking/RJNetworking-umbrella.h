@@ -11,6 +11,7 @@
 #endif
 
 #import "RJHTTPResponse.h"
+#import "RJHTTPSessionManager+API.h"
 #import "RJHTTPSessionManager.h"
 #import "RJHTTPUrl.h"
 
